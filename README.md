@@ -34,11 +34,31 @@ To run this project locally, follow these steps:
 
 
 ## Usage
-
-### GitHub API Script
+GitHub API Script
 
 To fetch details about a specific GitHub repository, run the `github_api_script.py` script:
 
-```python
+```bash
 # Replace 'username' and 'repository_name' with the actual values
 python github_api_script.py username repository_name
+
+## Web Scraping Script
+To scrape popular repositories from a GitHub topic, run the `web_scraping_script.py` script:
+
+```bash
+# Replace 'topic' with the actual topic name
+python web_scraping_script.py topic
+
+## Contributing
+
+Contributions are welcome! Please follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new feature branch.
+3. Commit your changes.
+4. Push to the branch.
+5. Create a new Pull Request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
