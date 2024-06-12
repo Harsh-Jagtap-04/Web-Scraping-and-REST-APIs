@@ -31,7 +31,7 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/your-repository-name.git
    cd your-repository-name
-
+   ```
 
 ## Usage
 GitHub API Script
@@ -39,8 +39,9 @@ GitHub API Script
 To fetch details about a specific GitHub repository, run the `github_api_script.py` script:
 
 ```bash
-# Replace 'username' and 'repository_name' with the actual values
-python github_api_script.py username repository_name
+   # Replace 'username' and 'repository_name' with the actual values
+   python github_api_script.py username repository_name
+```
 
 ## Web Scraping Script
 To scrape popular repositories from a GitHub topic, run the `web_scraping_script.py` script:
@@ -48,7 +49,7 @@ To scrape popular repositories from a GitHub topic, run the `web_scraping_script
 ```bash
 # Replace 'topic' with the actual topic name
 python web_scraping_script.py topic
-
+```
 ## Contributing
 
 Contributions are welcome! Please follow these steps to contribute:
